@@ -11,7 +11,7 @@
         "illuminate/support": "^6|^7|^8",
         "illuminate/contracts": "^6|^7|^8",
         "illuminate/notifications": "^6|^7|^8",
-        "mandrill/mandrill": "^1.0",
+        "mandrill/mandrill": "dev-master",
         "ext-fileinfo": "*"
     },
     "autoload": {
@@ -26,6 +26,12 @@
             ]
         }
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/pendolf/mandrill-api-php"
+        }
+    ],
     "config": {
         "sort-packages": true
     },
