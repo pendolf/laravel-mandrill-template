@@ -49,11 +49,9 @@ class Recipient implements Arrayable
      * Constructor.
      *
      * @param string $email
-     * @param string $name
-     * @param string $type
+     * @param string|null $name
+     * @param string|null $type
      *   Defaults to Recipient\Type::TO if not provided.
-     *
-     * @throws \ReflectionException
      */
     public function __construct(string $email, string $name = null, string $type = null)
     {

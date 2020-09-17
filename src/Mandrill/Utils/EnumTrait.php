@@ -13,7 +13,6 @@ trait EnumTrait
      * Get a list of possible values.
      *
      * @return array
-     * @throws \ReflectionException
      */
     public static function getValues(): array
     {

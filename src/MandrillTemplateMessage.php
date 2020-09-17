@@ -101,7 +101,7 @@ class MandrillTemplateMessage extends SimpleMessage
      * Add recipient address.
      *
      * @param string $address
-     * @param string $name
+     * @param string|null $name
      *
      * @return \Addgod\MandrillTemplate\MandrillTemplateMessage
      */
@@ -152,7 +152,7 @@ class MandrillTemplateMessage extends SimpleMessage
      * Attach a file to the message.
      *
      * @param string $file
-     * @param string $name
+     * @param string|null $name
      *
      * @return $this
      */

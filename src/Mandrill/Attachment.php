@@ -91,7 +91,7 @@ class Attachment implements Arrayable
      * Create an attachment instance from a file path.
      *
      * @param string $path
-     * @param string $name
+     * @param string|null $name
      *   Defaults to filename.
      *
      * @return \Addgod\MandrillTemplate\Mandrill\Attachment
